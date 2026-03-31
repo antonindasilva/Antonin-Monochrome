@@ -1,0 +1,6 @@
+.bg-hero{
+    background-image: url("/asset/Monochrome1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
