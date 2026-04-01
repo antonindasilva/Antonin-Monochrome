@@ -1,7 +1,7 @@
 
 /* Fond monochrome 1*/
 .bg-hero{
-    background-image: url("/asset/Monochrome1.jpg");
+    background-image: url("asset/Monochrome1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -48,7 +48,7 @@ nav{
 .rubik{
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <700>;
+  font-weight: 700;
   font-style: normal;
 }
 
