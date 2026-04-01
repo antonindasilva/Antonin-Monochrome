@@ -1,6 +1,80 @@
+
+/* Fond monochrome 1*/
 .bg-hero{
     background-image: url("/asset/Monochrome1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    opacity: 0.9;
+}
+.bg-hero-2{
+    background-image: url("asset/Monochrome_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+/* couleur txt*/
+.white{
+    color: white;
+}
+
+
+
+/*Placement texte*/
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    
+  
+}
+nav{
+    text-align: right;
+}
+
+
+/*Design texte*/
+
+.rubik{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <700>;
+  font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bouton1{
+    padding: 10px;
+    background-color:#353434;
+    color:#FFFFFF;
+    border-radius: 4px;
+}
+
+.bouton2{
+    padding: 10px;
+    background-color: #FFFFFF;
+    color:#000000;
+    border-radius: 4px;
+}
+
+/*typo navbar*/
+.typonav{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
