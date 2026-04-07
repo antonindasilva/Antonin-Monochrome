@@ -8,113 +8,120 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="rubik">
     <!-- Header -->
-    <header>
+    <header class="flex space-between align-center padding-15">
         <img src="asset/logo-black.png" alt="">
 
-        <nav class="typonav">
-            <a href="">L'agence</a>
-            <a href="#nos projets">Les projets</a>
-            <a href="">L'équipe</a>
-            <a href="">La communauté</a>
+        <nav class="typonav flex gap-8">
+            <a href="" class="black">L'agence</a>
+            <a href="#nos projets" class="black">Les projets</a>
+            <a href="" class="black">L'équipe</a>
+            <a href="" class="black">La communauté</a>
         </nav>
     </header>
 
-<!-- Main -->
-<main>
-    <!-- Section Présentation -->
-    <section class="bg-hero">
-        <h1 class="white">Créateurs d'espace minimaliste et intemporels</h1>
-        <p class="white">Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne une esthétique épurée avec une
-            attention minutieuse aux détails</p>
-    </section>
+    <!-- Main -->
+    <main>
+        <!-- Section Présentation -->
+        <section class="bg-hero flex align-center justify-center">
+            <div class="w-40">
+                <h1 class="white mb-20">Créateurs d'espace minimaliste et intemporels</h1>
+                <p class="white">Créateurs d'espaces minimalistes et fonctionnels, notre équipe fusionne une esthétique
+                    épurée avec une
+                    attention minutieuse aux détails</p>
+            </div>
+        </section>
 
-    <!-- Section Less is more -->
-    <section>
-        <div>
-            <h2>Less is more</h2>
-            <p>L’approche minimaliste nous permet de construire des espaces qui vous offrent une expérience intense tout
-                en simplicité.</p>
-        </div>
-        <div>
+        <!-- Section Less is more -->
+        <section>
             <div>
-                <h3>Design d’intérieur & mobilier</h3>
-                <p>Notre service de design d'intérieur transcende les limites de l'esthétique conventionnelle pour créer
-                    des
-                    espaces qui reflètent votre style de vie et vos besoins. </p>
-                <a href="" class="bouton1">En savoir plus</a>
+                <h2 class="bold">Less is more</h2>
+                <p class="regular">L’approche minimaliste nous permet de construire des espaces qui vous offrent une expérience intense tout en simplicité.</p>
+            </div>
+            <div class="flex space-between">
+                <div class="card padding-15">
+                    <h3 class="bold">Design d’intérieur & mobilier</h3>
+                    <p class="regular">Notre service de design d'intérieur transcende les limites de l'esthétique conventionnelle pour
+                        créer
+                        des
+                        espaces qui reflètent votre style de vie et vos besoins. </p>
+                    <a href="" class="bouton1">En savoir plus</a>
+                </div>
+
+                <div class="card padding-15">
+                    <h3 class="bold">Conception & conseil en architecture</h3>
+                    <p class="regular">L'architecture est l'art de donner vie aux espaces. Notre équipe d'architectes talentueux allie
+                        créativité et expertise technique pour concevoir des structures minimaliste et fonctionnel.</p>
+                    <a href="" class="bouton1">En savoir plus</a>
+                </div>
+
+                <div class="card padding-15">
+                    <h3 class="bold">Aménagement paysager</h3>
+                    <p class="regular">L'aménagement paysager est bien plus qu'une simple décoration extérieure ; c'est la création d'un
+                        environnement harmonieux entre l'homme et la nature. </p>
+                    <a href="" class="bouton1">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section client -->
+        <section class="bg-hero-2">
+
+            <h2 class="white">Ils nous font confiance</h2>
+
+            <img src="asset/Maison_du_monde.png" alt="">
+            <img src="asset/IBM.png" alt="">
+            <img src="asset/Netflix.png" alt="">
+            <img src="asset/Sony.png" alt="">
+
+            <a href="" class="bouton2">Découvrir plus</a>
+        </section>
+
+        <!-- Section Nos projets -->
+        <section>
+            <div id="nos projets">
+                <h2>Nos projets</h2>
+                <p>Découvrez nos projet et projetez vous dans notre futur collaboration !</p>
+            </div>
+
+            <a href="Lumière_épurée.html" target="_blank" div>
+                <img src="asset/lumière_épurée.jpg" width="300" alt="">
+                <h3>Lumière Épurée</h3>
+                <p>Résidence contemporaine baignée de lumière naturelle, caractérisée par des lignes épurées et des
+                    espaces
+                    ouverts</p>
+            </a>
             </div>
 
             <div>
-                <h3>Conception & conseil en architecture</h3>
-                <p>L'architecture est l'art de donner vie aux espaces. Notre équipe d'architectes talentueux allie
-                    créativité et expertise technique pour concevoir des structures minimaliste et fonctionnel.</p>
-                <a href="" class="bouton1">En savoir plus</a>
+                <img src="asset/Reflet_urbain.jpg" width="300" alt="">
+                <h3>Reflet Urbain</h3>
+                <p>Complexe architectural novateur qui intègre des éléments de verre et de métal pour créer une
+                    juxtaposition saisissante</p>
             </div>
 
             <div>
-                <h3>Aménagement paysager</h3>
-                <p>L'aménagement paysager est bien plus qu'une simple décoration extérieure ; c'est la création d'un
-                    environnement harmonieux entre l'homme et la nature. </p>
-                <a href="" class="bouton1">En savoir plus</a>
+                <img src="asset/Oasis_urbaine.jpg" width="300" alt="">
+                <h3>Oasis Urbaine</h3>
+                <p>Un développement résidentiel axé sur la durabilité, offrant des espaces verts luxuriants et des
+                    jardins
+                    communautaires.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Section client -->
-    <section class="bg-hero-2">
-
-        <h2 class="white">Ils nous font confiance</h2>
-
-        <img src="asset/Maison_du_monde.png" alt="">
-        <img src="asset/IBM.png" alt="">
-        <img src="asset/Netflix.png" alt="">
-        <img src="asset/Sony.png" alt="">
-
-        <a href="" class="bouton2">Découvrir plus</a>
-    </section>
-
-    <!-- Section Nos projets -->
-    <section>
-        <div id="nos projets">
-            <h2>Nos projets</h2>
-            <p>Découvrez nos projet et projetez vous dans notre futur collaboration !</p>
-        </div>
-
-        <a href="Lumière_épurée.html" target="_blank" div>
-            <img src="asset/lumière_épurée.jpg" width="300" alt="">
-            <h3>Lumière Épurée</h3>
-            <p>Résidence contemporaine baignée de lumière naturelle, caractérisée par des lignes épurées et des espaces
-                ouverts</p>
-        </a>
-        </div>
-
-        <div>
-            <img src="asset/Reflet_urbain.jpg" width="300" alt="">
-            <h3>Reflet Urbain</h3>
-            <p>Complexe architectural novateur qui intègre des éléments de verre et de métal pour créer une
-                juxtaposition saisissante</p>
-        </div>
-
-        <div>
-            <img src="asset/Oasis_urbaine.jpg" width="300" alt="">
-            <h3>Oasis Urbaine</h3>
-            <p>Un développement résidentiel axé sur la durabilité, offrant des espaces verts luxuriants et des jardins
-                communautaires.</p>
-        </div>
-
-        <div>
-            <img src="asset/Résurgence_naturelle.jpg" width="300" alt="">
-            <h3>Résurgence Naturelle</h3>
-            <p>Rénovation écologique d'un bâtiment historique, intégrant des technologies de pointe en matière d'énergie
-                renouvelable</p>
-        </div>
-    </section>
-</main>
+            <div>
+                <img src="asset/Résurgence_naturelle.jpg" width="300" alt="">
+                <h3>Résurgence Naturelle</h3>
+                <p>Rénovation écologique d'un bâtiment historique, intégrant des technologies de pointe en matière
+                    d'énergie
+                    renouvelable</p>
+            </div>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <img src="asset/logo-white.png" alt="">

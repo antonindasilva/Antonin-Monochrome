@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+
+
 
 /* Fond monochrome 1*/
 .bg-hero{
@@ -25,13 +34,11 @@
 
 /*Placement texte*/
 h1{
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
+    
 }
 
 h2{
-    text-align: center;
+    
 }
 
 p{
@@ -43,6 +50,8 @@ nav{
 }
 
 
+
+
 /*Design texte*/
 
 .rubik{
@@ -52,9 +61,22 @@ nav{
   font-style: normal;
 }
 
+
+/*Texte*/
 a{
     text-decoration: none;
-    color: black;
+}
+
+.black{
+    color: #000000;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.regular{
+    font-weight: lighter;
 }
 
 .bouton1{
@@ -62,6 +84,7 @@ a{
     background-color:#353434;
     color:#FFFFFF;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .bouton2{
@@ -77,4 +100,51 @@ a{
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+}
+
+/*flexbox*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap-8{
+    gap: 50px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/*MARGIN & PADDING*/
+
+.padding-15{
+    padding: 15px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*TAILLE*/
+
+.w-40{
+    width: 40%;
+}
+
+.card{
+    width: 30%;
 }
