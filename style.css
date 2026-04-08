@@ -20,7 +20,7 @@
     background-image: url("asset/Monochrome_2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+
     
 }
 
@@ -72,7 +72,11 @@ a{
 }
 
 .bold{
-    font-weight: bold;
+    font-weight: 700;
+}
+
+.bold-400{
+    font-weight: 400;
 }
 
 .regular{
@@ -92,6 +96,7 @@ a{
     background-color: #FFFFFF;
     color:#000000;
     border-radius: 4px;
+    display: inline-block;
 }
 
 /*typo navbar*/
@@ -113,8 +118,12 @@ a{
     justify-content: space-between;
 }
 
-.gap-8{
+.gap-50{
     gap: 50px;
+}
+
+.gap-20{
+    gap:20px;
 }
 
 .align-center{
@@ -124,6 +133,15 @@ a{
 .justify-center{
     justify-content: center;
 }
+
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+
+
+
 
 /*MARGIN & PADDING*/
 
@@ -135,16 +153,62 @@ a{
     margin-bottom: 20px;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
 
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
 
 
 
 /*TAILLE*/
 
+.w-50{
+    width: 50%;
+}
+
 .w-40{
     width: 40%;
 }
 
+.w-30{
+    width: 30%;
+}
+
+.w-20{
+    width: 20%;
+}
+
 .card{
     width: 30%;
+}
+
+
+
+/*Containers*/
+
+.container-800{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bg-red{
+    background-color: red;
 }
